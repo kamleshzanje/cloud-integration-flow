@@ -8,7 +8,7 @@ To know more about this feature and various functionalities, please refer the re
 
 
 
-[Download the integration flow sample](Integration flow simulation demo.zip)
+[Download the integration flow sample](Simulate_response_from_receiver_system.zip)
 
 ## Recipe
 
