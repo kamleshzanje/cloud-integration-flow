@@ -7,6 +7,7 @@ This recipe will explain how to simulate the response from the receiver system b
 To know more about this feature and various functionalities, please refer the reference section.
 
 
+
 [Download the integration flow sample](Integration flow simulation demo.zip)
 
 ## Recipe
@@ -52,7 +53,7 @@ This is the simulation input payload used in the sample integration flow. Select
 ![Add Simulation Input payload](Add_Simulated-input-payload.jpg)
 
 ### Response payload
-This is the Simulated response from the receiver system. Select the OData Receiver Adapter, the XML Payload provide in should be feed in the Simulation Response Dialog.
+This is the Simulated response from the receiver system. Select the OData Receiver Adapter, the XML Payload provide in should be feed in the Add Simulation Response Dialog.
 ```
 <Products>
     <Product>
@@ -116,12 +117,14 @@ This is the Simulated response from the receiver system. Select the OData Receiv
 ```
 
 ![Response Payload](Simulate-response-payload.jpg)
+
 ![Click Add Simulation Response](Add_Simulated-response-payload.jpg)
+
 ![Feed Simulated response](Feed_simulated-response.jpg)
 
 ### Run Simulation
 
-Once all the necessary input and response payload is provided, you can run the simulation. Once the simulation is complete, the response payload from Receiver system has been received, XML is validated and has also been successfully converted from XML into the JSON format.
+Once all the necessary input and response payload is provided, you can run the simulation. Once the simulation is complete, the response payload from Receiver system has been received, XML is validated and also been successfully converted from XML into the JSON format.
 
 ![Receiver system response](Simulate-Response-from-Receiver-System.jpg)
 
